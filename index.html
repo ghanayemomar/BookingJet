@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="img/logo.png" alr="BookingJet logo" class="logo"/>
+            <img src="img/logo.png" alr="BookingJet logo" class="logo" />
             <form action="#" class="search">
                 <input type="text" class="search__input" placeholder="Search hotels">
                 <botton class="search__botton">
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="user-nav__user">
-                    <img src="img/user.jpg" alt="" class="user-nav__user-photo"/>
+                    <img src="img/user.jpg" alt="" class="user-nav__user-photo" />
                     <span class="user-nav__user-name">Omar</span>
                 </div>
             </nav>
@@ -50,7 +50,45 @@
 
         <div class="content">
             <nav class="sidebar">
-                Navigation
+                <ul class="side-nav">
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Hotel</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-aircraft"></use>
+                            </svg>
+                            <span>
+                                Flight
+                            </span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Key</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Map</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    &copy; 2023 by BookingJet. All righrs reserved.
+                </div>
             </nav>
             <main class="hotel-view">
                 Hotel View
